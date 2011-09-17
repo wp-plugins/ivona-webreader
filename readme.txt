@@ -8,7 +8,7 @@ Stable tag: 1.1
 
 
 This plugin will add iWebReader player to each post or page on your Wordpress blog. 
-iWebReader plugin requires a vaild account on [iWebReader](http://www.iwebreader.com/ "iWebReader") website. 
+iWebReader plugin requires a vaild account on iWebReader website. 
 
 == Description ==
 
