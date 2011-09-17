@@ -243,15 +243,7 @@ class IVONAWebreaderPlugin{
                 'desc'=>'Skip reading HTML Elements with class atrribute. Spearate multiple values by comma.',
                 'default'=>'',
                 
-            ),
-            
-            
-            
-            
-            
-            
-            
-            
+            )
         );
         // Store DB values in self::values instance
         self::configureValues();
