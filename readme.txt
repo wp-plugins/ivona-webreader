@@ -15,10 +15,11 @@ iWebReader plugin requires a vaild account on iWebReader website.
 iWebReader is a high-tech service based on multiple-award-winning IVONA Text-To-Speech technology which allows website owners to voice-over web page content, making it more attractive and accessible to visitors. Thanks to this service, users can not only listen to selected text, but also download and save it as audio files. With iWebReader, you get access to all the voices and languages available in the IVONA suite of Internet services. The intuitive user interface and amazingly natural voices intensify the visitor’s experience of your website, while enhancing your brand. 
 
 == Installation ==
-1. Activate your service on [iWebReader](http://www.iwebreader.com/ "iWebReader") website.
+1. Activate your service on [iWebReader](http://www.iwebreader.com/) website.
+1. Define list of your domains on [security page](https://secure.iwebreader.com/account/security.php).
 1. Upload plugin files to the `/wp-content/plugins/` 
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Select the Menu -> Settings -> IVONA Webreader and enter your iWebReader service ID.
+1. Activate the plugin through the `Plugins` menu in WordPress
+1. Select the `Settings -> IVONA Webreader` and enter your service ID.
 1. Choose one of all available IVONA voices and save your configuration.
 
 == Frequently Asked Questions ==
@@ -50,6 +51,3 @@ If you have experienced any problems with this plugin please let us know by cont
 
 = 1.0 =
 * This is initial release of the plugin
-
-
-
