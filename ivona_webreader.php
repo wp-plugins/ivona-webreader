@@ -3,7 +3,7 @@
  IVONA WebReader WordPress Plugin
  ==============================================================================
  
- This plugin will add iWebReader players to each article on your website
+ This plugin will add iWebReader player to each post or page on your Wordpress blog.
 
  Info for WordPress:
  ==============================================================================
