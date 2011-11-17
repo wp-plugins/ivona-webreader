@@ -3,7 +3,7 @@
     Name: IVONAWebreaderVoicelist Class
     Description: Contains voices data for CMS plugins
     License: Dual licensed under MIT and GPLv2 licenses
-    Build date: 2011-09-18T01:17:19+02:00
+    Build date: 2011-11-17T14:40:25+01:00
     Copyrights: IVONA WebReader, LLC
     
 */
@@ -207,6 +207,13 @@ class IVONAWebreaderVoicelist {
                 'is_delegate'=>0,
                 'locale'=>'en_US',
                 'gender'=>'tf',
+            ),
+            array(
+                'id'=>'29',
+                'name'=>'Nicole',
+                'is_delegate'=>1,
+                'locale'=>'en_AU',
+                'gender'=>'f',
             )
         );
     }

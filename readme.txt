@@ -4,7 +4,7 @@ Donate link: http://www.iwebreader.com/
 Tags: page, tts, voiceover, text, speech, accessibility, post, sound
 Requires at least: 2.0
 Tested up to: 3.2.1
-Stable tag: 1.1
+Stable tag: 1.2
 
 
 This plugin will add iWebReader player to each post or page on your Wordpress blog. 
@@ -35,6 +35,9 @@ If you have experienced any problems with this plugin please let us know by cont
 
 == Changelog ==
 
+= 1.2 =
+* Added new Australian English voice - Nicole.
+
 = 1.1 =
 * Improved overall stability of the plugin.
 * Updated voices list with new TTS voices.
@@ -43,6 +46,9 @@ If you have experienced any problems with this plugin please let us know by cont
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.2 =
+* Added new Australian English voice - Nicole.
 
 = 1.1 =
 * Added new confuration options.
