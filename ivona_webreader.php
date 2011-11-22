@@ -1,6 +1,6 @@
 <?php
 /*
- IVONA WebReader WordPress Plugin
+ iWebReader WordPress Plugin
  ==============================================================================
  
  This plugin will add iWebReader player to each post or page on your Wordpress blog.
@@ -10,8 +10,8 @@
  Plugin Name: IVONA WebReader 
  Plugin URI: http://www.iwebreader.com/
  Description: Professional voiceover for your website 
- Author: IVONA WebReader Ltd.
- Version: 1.1
+ Author: iWebReader Ltd.
+ Version: 1.2
  Author URI: http://www.iwebreader.com
  
 */
