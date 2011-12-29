@@ -7,7 +7,7 @@ Tested up to: 3.3
 Stable tag: 1.3
 
 
-Allow users to listen to the content of your website or blog voiced by the most advanced TTS solution by IVONA Software, LLC. iWebReader plugin requires a vaild account on iWebReader website. 
+Allow users to listen to the content of your website or blog voiced by the most advanced TTS solution by IVONA Software, LLC. 
 
 == Description ==
 
