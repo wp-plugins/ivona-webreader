@@ -18,17 +18,17 @@ class IVONAWebreaderConfig{
             // Background color of the player
             // Color values must be in format '#xxxxxx' where
             // 'xxxxxx' is hexadecimal value of the color
-            'wr_bgColor'=>'#000000',
+            'wr_bgColor'=>'#FFFFFF',
             
             // Controls color of the player
             // Color values must be in format '#xxxxxx' where
             // 'xxxxxx' is hexadecimal value of the color
-            'wr_btnColor'=>'#FFFFFF',
+            'wr_btnColor'=>'#666666',
             
             // Border color of the player
             // Color values must be in format '#xxxxxx' where
             // 'xxxxxx' is hexadecimal value of the color
-            'wr_borColor'=>'#666666',
+            'wr_borColor'=>'#CCCCCC',
             
             // Appearance of the player
             // Allowed values are 0 (minified), 1 (text button) and 2 (full size)
@@ -40,7 +40,7 @@ class IVONAWebreaderConfig{
             
             // Shadow of the player
             // Allowed values are 0 (disabled ) and 1 (enabled)
-            'wr_shadow'=>'1',
+            'wr_shadow'=>'0',
             
             // Alpha channel of the player
             // Value must be an unsigned integer between 20 and 100 
@@ -56,7 +56,7 @@ class IVONAWebreaderConfig{
             
             // Height of the player
             // Player's width is calculated from this value 
-            'wr_playerHeight'=>'26',
+            'wr_playerHeight'=>'30',
             
             // Speech synthesis rate
             // Allowed values are 50 75 100 125 150 175 and 200

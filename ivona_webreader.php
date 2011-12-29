@@ -9,9 +9,9 @@
  ==============================================================================
  Plugin Name: IVONA WebReader 
  Plugin URI: http://www.iwebreader.com/
- Description: Professional voiceover for your website 
- Author: iWebReader Ltd.
- Version: 1.2
+ Description: Allow users to listen to the content of your website or blog voiced by the most advanced TTS solution by IVONA Software, LLC  
+ Author: iWebReader, LLC .
+ Version: 1.3
  Author URI: http://www.iwebreader.com
  
 */
@@ -103,9 +103,9 @@ class IVONAWebreaderPlugin{
                 
             ),
             'wr_readModDate'=>array(
-                'name'=>'Read modification date',
+                'name'=>'Read post date',
                 'type'=>'select',
-                'desc'=>'Should iWebReader read modification date of your posts?',
+                'desc'=>'Should iWebReader read post date ?',
                 'default'=>'', 
                 'choices'=>array(
                     'Get from configuration file'=>null,
@@ -324,9 +324,9 @@ echo '
          	e = D.createElement("script");
          	e.async = true;
          	if("https:" == document.location.protocol){
-         		e.src = "https://secure.ivona.com/static/scripts/webreaderPlayer2.js?timestamp="+ts
+         		e.src = "https://secure.iwebreader.com/static/scripts/webreaderPlayer2.js?timestamp="+ts
          	}else{
-         		e.src = "http://player.ivona.com/www/static/scripts/webreaderPlayer2.js?timestamp="+ts
+         		e.src = "http://static.iwebreader.com/wr/scripts/webreaderPlayer2.js?timestamp="+ts
          	}
          	a.appendChild(e);
     }
@@ -401,8 +401,8 @@ echo '
     	// Modified date
     	$modified = '';
     	if(self::getVar('wr_readModDate','yes')=='yes'){
-    	    
-        	$modified = '<div style="display:none">'.substr($post->post_modified,0,(strlen($post->post_modified)-3)).'
+        	$modified = '<div style="display:none">
+        	    '.substr($post->post_date,0,-3).'
 
 
             </div>';
