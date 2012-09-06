@@ -6,7 +6,7 @@ Requires at least: 2.0
 Tested up to: 3.4
 Stable tag: 1.4
 
-iWebReader reads the content of a website aloud. It can be used on any website, making it more attractive and accessible to all (including the visually impaired, partially sighted, elderly or dyslectic persons). iWebReader is compatible with most popular browsers.
+iWebReader reads the content of a website aloud. It can be used on any website, making it more attractive and accessible to all.
 
 == Description ==
 
