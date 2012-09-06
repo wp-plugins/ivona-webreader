@@ -3,7 +3,7 @@
     Name: IVONAWebreaderVoicelist Class
     Description: Contains voices data for CMS plugins
     License: Dual licensed under MIT and GPLv2 licenses
-    Build date: 2011-12-29T13:16:31+01:00
+    Build date: 2012-09-06T16:20:44+02:00
     Copyrights: IVONA WebReader, LLC
     
 */
@@ -22,7 +22,7 @@ class IVONAWebreaderVoicelist {
             array(
                 'id'=>'2',
                 'name'=>'Ewa',
-                'is_delegate'=>1,
+                'is_delegate'=>0,
                 'locale'=>'pl_PL',
                 'gender'=>'f',
             ),
@@ -213,6 +213,83 @@ class IVONAWebreaderVoicelist {
                 'name'=>'Nicole',
                 'is_delegate'=>1,
                 'locale'=>'en_AU',
+                'gender'=>'f',
+            ),
+            array(
+                'id'=>'30',
+                'name'=>'Agnieszka',
+                'is_delegate'=>1,
+                'locale'=>'pl_PL',
+                'gender'=>'f',
+            ),
+            array(
+                'id'=>'31',
+                'name'=>'Giorgio',
+                'is_delegate'=>1,
+                'locale'=>'it_IT',
+                'gender'=>'m',
+            ),
+            array(
+                'id'=>'32',
+                'name'=>'Chantal',
+                'is_delegate'=>1,
+                'locale'=>'fr_CA',
+                'gender'=>'f',
+            ),
+            array(
+                'id'=>'33',
+                'name'=>'Ricardo',
+                'is_delegate'=>1,
+                'locale'=>'pt_BR',
+                'gender'=>'m',
+            ),
+            array(
+                'id'=>'34',
+                'name'=>'Vitória',
+                'is_delegate'=>1,
+                'locale'=>'pt_BR',
+                'gender'=>'f',
+            ),
+            array(
+                'id'=>'35',
+                'name'=>'Dóra',
+                'is_delegate'=>0,
+                'locale'=>'is_IS',
+                'gender'=>'f',
+            ),
+            array(
+                'id'=>'36',
+                'name'=>'Karl',
+                'is_delegate'=>0,
+                'locale'=>'is_IS',
+                'gender'=>'m',
+            ),
+            array(
+                'id'=>'37',
+                'name'=>'Russell',
+                'is_delegate'=>0,
+                'locale'=>'en_AU',
+                'gender'=>'m',
+            ),
+            array(
+                'id'=>'38',
+                'name'=>'Carla',
+                'is_delegate'=>0,
+                'locale'=>'it_IT',
+                'gender'=>'f',
+            ),
+            array(
+                'id'=>'39',
+                'name'=>'Naja',
+                'is_delegate'=>1,
+                'locale'=>'da_DA',
+                'gender'=>'f',
+            ),
+            array(
+                'id'=>'40',
+                'name'=>'Lotte',
+                'is_delegate'=>1,
+                'locale'=>'nl_NL',
                 'gender'=>'f',
             )
         );

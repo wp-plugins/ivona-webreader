@@ -11,7 +11,7 @@
  Plugin URI: http://www.iwebreader.com/
  Description: Allow users to listen to the content of your website or blog voiced by the most advanced TTS solution by IVONA Software, LLC  
  Author: iWebReader, LLC .
- Version: 1.3
+ Version: 1.4
  Author URI: http://www.iwebreader.com
  
 */
@@ -295,7 +295,7 @@ class IVONAWebreaderPlugin{
     // Function for retrieving values from config
     static function getVar($k,$d=null){
         if(isset(self::$config[$k]) && !empty(self::$config[$k])){
-            return self::$config[$k];
+            return trim(self::$config[$k]);
         }else{
             if($d!==null){
                 return $d;
