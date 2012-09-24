@@ -1,4 +1,4 @@
-<?
+<?php
 class IVONAWebreaderConfig{
     static function getConfig(){
         return array(

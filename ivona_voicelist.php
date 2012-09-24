@@ -1,9 +1,9 @@
-<?
+<?php
 /*  
     Name: IVONAWebreaderVoicelist Class
     Description: Contains voices data for CMS plugins
     License: Dual licensed under MIT and GPLv2 licenses
-    Build date: 2012-09-06T16:34:38+02:00
+    Build date: 2012-09-24T16:07:40+02:00
     Copyrights: IVONA WebReader, LLC
     
 */
@@ -17,280 +17,280 @@ class IVONAWebreaderVoicelist {
                 'name'=>'Jacek',
                 'is_delegate'=>0,
                 'locale'=>'pl_PL',
-                'gender'=>'m',
+                'gender'=>'m'
             ),
             array(
                 'id'=>'2',
                 'name'=>'Ewa',
                 'is_delegate'=>0,
                 'locale'=>'pl_PL',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'3',
                 'name'=>'Jennifer',
                 'is_delegate'=>0,
                 'locale'=>'en_US',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'4',
                 'name'=>'Eric',
                 'is_delegate'=>0,
                 'locale'=>'en_US',
-                'gender'=>'m',
+                'gender'=>'m'
             ),
             array(
                 'id'=>'5',
                 'name'=>'Carmen',
                 'is_delegate'=>1,
                 'locale'=>'ro_RO',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'6',
                 'name'=>'Jan',
                 'is_delegate'=>0,
                 'locale'=>'pl_PL',
-                'gender'=>'m',
+                'gender'=>'m'
             ),
             array(
                 'id'=>'7',
                 'name'=>'Maja',
                 'is_delegate'=>0,
                 'locale'=>'pl_PL',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'8',
                 'name'=>'Amy',
                 'is_delegate'=>0,
                 'locale'=>'en_GB',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'9',
                 'name'=>'Brian',
                 'is_delegate'=>0,
                 'locale'=>'en_GB',
-                'gender'=>'m',
+                'gender'=>'m'
             ),
             array(
                 'id'=>'10',
                 'name'=>'Kendra',
                 'is_delegate'=>0,
                 'locale'=>'en_US',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'11',
                 'name'=>'Joey',
                 'is_delegate'=>0,
                 'locale'=>'en_US',
-                'gender'=>'m',
+                'gender'=>'m'
             ),
             array(
                 'id'=>'12',
                 'name'=>'Geraint',
                 'is_delegate'=>1,
                 'locale'=>'cy_CY',
-                'gender'=>'m',
+                'gender'=>'m'
             ),
             array(
                 'id'=>'13',
                 'name'=>'Emma',
                 'is_delegate'=>1,
                 'locale'=>'en_GB',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'14',
                 'name'=>'Kimberly',
                 'is_delegate'=>1,
                 'locale'=>'en_US',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'15',
                 'name'=>'Conchita',
                 'is_delegate'=>1,
                 'locale'=>'es_ES',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'16',
                 'name'=>'Miguel',
                 'is_delegate'=>0,
                 'locale'=>'es_ES',
-                'gender'=>'m',
+                'gender'=>'m'
             ),
             array(
                 'id'=>'17',
                 'name'=>'Chipmunk',
                 'is_delegate'=>0,
                 'locale'=>'en_US',
-                'gender'=>'chip',
+                'gender'=>'chip'
             ),
             array(
                 'id'=>'18',
                 'name'=>'Penélope',
                 'is_delegate'=>1,
                 'locale'=>'es_US',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'19',
                 'name'=>'Enrique',
                 'is_delegate'=>0,
                 'locale'=>'es_US',
-                'gender'=>'m',
+                'gender'=>'m'
             ),
             array(
                 'id'=>'20',
                 'name'=>'Hans',
                 'is_delegate'=>0,
                 'locale'=>'de_DE',
-                'gender'=>'m',
+                'gender'=>'m'
             ),
             array(
                 'id'=>'21',
                 'name'=>'Marlene',
                 'is_delegate'=>1,
                 'locale'=>'de_DE',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'22',
                 'name'=>'Céline',
                 'is_delegate'=>1,
                 'locale'=>'fr_FR',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'23',
                 'name'=>'Mathieu',
                 'is_delegate'=>0,
                 'locale'=>'fr_FR',
-                'gender'=>'m',
+                'gender'=>'m'
             ),
             array(
                 'id'=>'24',
                 'name'=>'Gwyneth',
                 'is_delegate'=>0,
                 'locale'=>'cy_CY',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'25',
                 'name'=>'Geraint',
                 'is_delegate'=>0,
                 'locale'=>'en_WLS',
-                'gender'=>'m',
+                'gender'=>'m'
             ),
             array(
                 'id'=>'26',
                 'name'=>'Gwyneth',
                 'is_delegate'=>1,
                 'locale'=>'en_WLS',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'27',
                 'name'=>'Salli',
                 'is_delegate'=>0,
                 'locale'=>'en_US',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'28',
                 'name'=>'Ivy',
                 'is_delegate'=>0,
                 'locale'=>'en_US',
-                'gender'=>'tf',
+                'gender'=>'tf'
             ),
             array(
                 'id'=>'29',
                 'name'=>'Nicole',
                 'is_delegate'=>1,
                 'locale'=>'en_AU',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'30',
                 'name'=>'Agnieszka',
                 'is_delegate'=>1,
                 'locale'=>'pl_PL',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'31',
                 'name'=>'Giorgio',
                 'is_delegate'=>1,
                 'locale'=>'it_IT',
-                'gender'=>'m',
+                'gender'=>'m'
             ),
             array(
                 'id'=>'32',
                 'name'=>'Chantal',
                 'is_delegate'=>1,
                 'locale'=>'fr_CA',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'33',
                 'name'=>'Ricardo',
                 'is_delegate'=>1,
                 'locale'=>'pt_BR',
-                'gender'=>'m',
+                'gender'=>'m'
             ),
             array(
                 'id'=>'34',
                 'name'=>'Vitória',
                 'is_delegate'=>1,
                 'locale'=>'pt_BR',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'35',
                 'name'=>'Dóra',
                 'is_delegate'=>0,
                 'locale'=>'is_IS',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'36',
                 'name'=>'Karl',
                 'is_delegate'=>0,
                 'locale'=>'is_IS',
-                'gender'=>'m',
+                'gender'=>'m'
             ),
             array(
                 'id'=>'37',
                 'name'=>'Russell',
                 'is_delegate'=>0,
                 'locale'=>'en_AU',
-                'gender'=>'m',
+                'gender'=>'m'
             ),
             array(
                 'id'=>'38',
                 'name'=>'Carla',
                 'is_delegate'=>0,
                 'locale'=>'it_IT',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'39',
                 'name'=>'Naja',
                 'is_delegate'=>1,
                 'locale'=>'da_DA',
-                'gender'=>'f',
+                'gender'=>'f'
             ),
             array(
                 'id'=>'40',
                 'name'=>'Lotte',
                 'is_delegate'=>1,
                 'locale'=>'nl_NL',
-                'gender'=>'f',
+                'gender'=>'f'
             )
         );
     }
