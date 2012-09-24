@@ -46,7 +46,7 @@ If you have experienced any problems with this plugin please let us know by cont
 * Fixed bug with PHP short open tags
 
 = 1.4 =
-* Added new TSS voices (Polish, Itialian, Canadian French, Brazilian Portuguese, Icelandic, Danish, Dutch and Australian English)
+* Added new TTS voices (Polish, Itialian, Canadian French, Brazilian Portuguese, Icelandic, Danish, Dutch and Australian English)
 
 = 1.3 =
 * Compatibility with Wordpress 3.3
@@ -67,7 +67,7 @@ If you have experienced any problems with this plugin please let us know by cont
 * Fixed bug with PHP short open tags
 
 = 1.4 =
-* Added new TSS voices (Polish, Itialian, Canadian French, Brazilian Portuguese, Icelandic, Danish, Dutch and Australian English)
+* Added new TTS voices (Polish, Itialian, Canadian French, Brazilian Portuguese, Icelandic, Danish, Dutch and Australian English)
 
 = 1.3 =
 * Compatibility with Wordpress 3.3
