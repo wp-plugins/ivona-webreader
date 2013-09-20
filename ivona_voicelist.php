@@ -3,7 +3,7 @@
     Name: IVONAWebreaderVoicelist Class
     Description: Contains voices data for CMS plugins
     License: Dual licensed under MIT and GPLv2 licenses
-    Build date: 2012-09-24T16:43:57+02:00
+    Build date: 2013-09-20T16:20:09+02:00
     Copyrights: IVONA WebReader, LLC
     
 */
@@ -121,7 +121,7 @@ class IVONAWebreaderVoicelist {
                 'id'=>'16',
                 'name'=>'Miguel',
                 'is_delegate'=>0,
-                'locale'=>'es_ES',
+                'locale'=>'es_US',
                 'gender'=>'m'
             ),
             array(
@@ -142,7 +142,7 @@ class IVONAWebreaderVoicelist {
                 'id'=>'19',
                 'name'=>'Enrique',
                 'is_delegate'=>0,
-                'locale'=>'es_US',
+                'locale'=>'es_ES',
                 'gender'=>'m'
             ),
             array(
@@ -291,6 +291,27 @@ class IVONAWebreaderVoicelist {
                 'is_delegate'=>1,
                 'locale'=>'nl_NL',
                 'gender'=>'f'
+            ),
+            array(
+                'id'=>'41',
+                'name'=>'Ruben',
+                'is_delegate'=>0,
+                'locale'=>'nl_NL',
+                'gender'=>'m'
+            ),
+            array(
+                'id'=>'42',
+                'name'=>'Mads',
+                'is_delegate'=>1,
+                'locale'=>'da_DA',
+                'gender'=>'m'
+            ),
+            array(
+                'id'=>'43',
+                'name'=>'Tatyana',
+                'is_delegate'=>1,
+                'locale'=>'ru_RU',
+                'gender'=>'f'
             )
         );
     }
@@ -310,6 +331,15 @@ class IVONAWebreaderVoicelist {
         if($l=='es_US') return 'es_us';
         if($l=='en_WLS') return 'wls';
         return strtolower(substr($l,3,4));
+    }
+    public function getWRLangByVoiceID($id){
+        $id = intval($id);
+        foreach($this->getSortedByLocale() as $locale => $v){
+            foreach($v['items'] as $key => $voice){
+                if( $id==intval($voice['id']) ) return $v['wrlang'];
+            }
+        }
+        return false; 
     }
     function getLangCodeByLocale($l){
         return strtolower(substr($l,0,2));

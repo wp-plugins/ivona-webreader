@@ -11,7 +11,7 @@
  Plugin URI: http://www.iwebreader.com/
  Description: Allow users to listen to the content of your website or blog voiced by the most advanced TTS solution by IVONA Software, LLC  
  Author: iWebReader, LLC .
- Version: 1.5
+ Version: 1.6
  Author URI: http://www.iwebreader.com
  
 */

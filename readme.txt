@@ -4,7 +4,7 @@ Donate link: http://www.iwebreader.com/
 Tags: page, tts, voiceover, text, speech, accessibility, post, sound, lector, voice talent, content
 Requires at least: 2.0
 Tested up to: 3.4
-Stable tag: 1.5
+Stable tag: 1.6
 
 iWebReader reads the content of a website aloud. It can be used on any website, making it more attractive and accessible to all.
 
@@ -42,6 +42,9 @@ If you have experienced any problems with this plugin please let us know by cont
 
 == Changelog ==
 
+= 1.6 =
+* Added new TTS voices (Dutch, Danish and Russian)
+
 = 1.5 =
 * Fixed bug with PHP short open tags
 
@@ -62,6 +65,9 @@ If you have experienced any problems with this plugin please let us know by cont
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.6 =
+* Added new TTS voices (Dutch, Danish and Russian)
 
 = 1.5 =
 * Fixed bug with PHP short open tags
